@@ -539,21 +539,25 @@ footer {
 }
 
 .btn-twitter {
-    background: #fddea7; 
+    background: #d6eeff; 
 }
 
 .btn-insta {
-    background: #ffca9c; 
+    background: #ecd6ff; 
 }
 
 .btn-kofi {
-    background: #f9b99a; 
+    background: #ffdbdb; 
 }
 
 .btn-commissions {
-    background: #f9b9ae; 
+    background: #ffeedb; 
     z-index: 2;
     
+}
+
+.btn-vgen {
+    background: #d6ffe5; 
 }
 
 .btn-icon svg {
