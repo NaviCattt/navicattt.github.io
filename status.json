@@ -1,5 +1,5 @@
 {
-  "commissionsOpen": true,
+  "commissionsOpen": false,
   "statusTextOpen": "OPEN",
   "statusTextClosed": "CLOSED"
 }
