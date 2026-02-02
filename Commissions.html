@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Commissions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" type="image/png" href="Imagenes/favicon.png">
+    <script src="js/app.js" defer></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@400;500;700&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <app-navbar></app-navbar>
+
+    <header class="page-header">
+        <h1>Commissions <span>Prices</span></h1>
+        <p style="margin-top: -16px;" class="commissions-status">Status: <span id="commissions-page-status"
+                class="status-text">...</span></p>
+    </header>
+
+    <main class="gallery-section">
+
+        <section aria-label="Lista de precios y ejemplos">
+            <div class="gallery-grid">
+
+                <article class="art-card">
+                    <div class="card-image-container">
+                        <img src="Imagenes/furAndJam1.png" alt="Ejemplo de arte cuerpo completo">
+                    </div>
+                    <div class="thumbs-container">
+                        <img src="Imagenes/furAndJam1.png" class="thumbnail active" alt="Full Body 1" data-bg="#ede4da">
+                        <img src="Imagenes/PennyHW.png" class="thumbnail" alt="Full Body 2" data-bg="#ede4da">
+                        <img src="Imagenes/Koko2.png" class="thumbnail" alt="Full Body 3" data-bg="#f4ece6">
+                        <img src="Imagenes/angy.png" class="thumbnail" alt="Full Body 4" data-bg="#f4e8f3">
+                        <img src="Imagenes/Exph2y.png" class="thumbnail" alt="Full Body 5" data-bg="#ede4da">
+                        <img src="Imagenes/DitherRat.png" class="thumbnail" alt="Full Body 6" data-bg="#ede4da">
+                    </div>
+
+                    <div class="card-info">
+                        <h3 class="art-title">Full Body</h3>
+                        <ul class="art-ticket-list">
+                            <li>Character in chosen pose</li>
+                            <li>Simple background included</li>
+                            <li>Additional character: +$44</li>
+
+                        </ul>
+                        <div class="ticket-footer">
+                            <span class="delivery-time">Delivery time: 2-7 days</span>
+                            <div class="price-tag">$52</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="art-card">
+                    <div class="card-image-container">
+                        <img src="Imagenes/JD.png" alt="Pixel art portrait example">
+                    </div>
+                    <div class="thumbs-container">
+                        <img src="Imagenes/JD.png" class="thumbnail active" alt="Portrait 1" data-bg="#ede4da">
+                        <img src="Imagenes/Muu1.png" class="thumbnail" alt="Portrait 2" data-bg="#eed9be">
+                        <img src="Imagenes/Link.png" class="thumbnail" alt="Portrait 4" data-bg="#f4d2cd">
+                        <img src="Imagenes/Oarz22.png" class="thumbnail" alt="Portrait 5" data-bg="#a8e1ff">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="art-title">Portrait</h3>
+                        <ul class="art-ticket-list">
+                            <li>Character in chosen pose</li>
+                            <li>Very simple background included</li>
+                            <li>Additional character: +$20</li>
+                        </ul>
+                        <div class="ticket-footer">
+                            <span class="delivery-time">Delivery time: 1-7 days</span>
+                            <div class="price-tag">$28</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="art-card">
+                    <div class="card-image-container">
+                        <img src="Imagenes/thanksrfp4.png" alt="Icon example">
+                    </div>
+                    <div class="thumbs-container">
+                        <img src="Imagenes/thanksrfp4.png" class="thumbnail active" alt="Icon 1" data-bg="#ede4da">
+                        <img src="Imagenes/thanksrfp3.png" class="thumbnail" alt="Icon 2" data-bg="#ede4da">
+                        <img src="Imagenes/thanksrfp1.png" class="thumbnail" alt="Icon 4" data-bg="#ede4da">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="art-title">Icon</h3>
+                        <ul class="art-ticket-list">
+                            <li>Simple icon of your character</li>
+
+                        </ul>
+                        <div class="ticket-footer">
+                            <span class="delivery-time">Delivery time: 1-3 days</span>
+                            <div class="price-tag">$12</div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <app-footer></app-footer>
+
+</body>
+
+</html>
